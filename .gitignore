@@ -1,0 +1,4 @@
+# Contents of build folder should always be ignored in CMake
+*/build
+*/bin
+.vscode
