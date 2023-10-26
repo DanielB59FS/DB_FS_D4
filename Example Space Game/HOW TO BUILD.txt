@@ -1,0 +1,13 @@
+This folder contains base code the team can use to create their game.
+To build this project you need to install CMake and the Vulkan SDK.
+You are not required to use Vulkan but the base renderer does use it.
+
+Software: 
+https://CMake.org 
+https://www.lunarg.com/vulkan-sdk/
+
+After installing reboot your machine and run: "cmake -S ./ -B ./build"
+in a command prompt located in this folder. The .sln will be in the build folder.
+
+One your team has settled on a name you should replace all references to Example Space Game.
+The main place to do this is in the CMakeLists.txt file, but should also be done in the code.
